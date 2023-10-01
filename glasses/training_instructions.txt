@@ -1,0 +1,37 @@
+Step 1: Install Dependencies
+
+Set up virtual environment with Miniconda3 and Ipykernel
+https://gist.github.com/peterhs73/c9ae0d729bc4b6cebdbb8c0b87d7ab97
+
+Install dependencies using following link (substituting Anaconda3 for Miniconda3)
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+
+Step 2: Datasets
+
+Dataset should be in TFRecord format. You can:
+
+Download straight from Roboflow (must cite, and not all datasets are high quality)
+
+Create own dataset and convert to TFRecords
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#preparing-the-dataset
+
+
+Step 3: Training
+
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#training-the-model
+
+Model used should be ssd_mobilenet_v2_fpnlite_320x320
+
+Step 4: Export Model
+
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#exporting-a-trained-model
+
+
+Step 5: Convert pb file to tflite file
+
+https://saturncloud.io/blog/how-to-convert-a-tensorflow-pb-file-to-tflite-using-python/
+
+
+Step 6: Check accuracy of tflite model
+
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/auto_examples/plot_object_detection_saved_model.html#load-the-model
