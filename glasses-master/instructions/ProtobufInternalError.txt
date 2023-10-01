@@ -1,0 +1,6 @@
+How to fix the error when executing model_main_tf2.py under 'Training The Model': 
+ImportError: cannot import name 'builder' from 'google.protobuf.internal'
+
+
+
+see https://stackoverflow.com/a/72494013/12689447 for fix

@@ -1,0 +1,7 @@
+Step 1: Connect to jupyterhub server with user 'jamie' (link and credentials from Lazaros)
+
+Step 2: Follow the instructions in the tensorflow-gpu/env_tensorflow-gpu/Tensorflow/workspace/stop_signs_v1/Train.ipynb notebook
+
+Step 3: Check accuracy of tflite model
+
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/auto_examples/plot_object_detection_saved_model.html#load-the-model
