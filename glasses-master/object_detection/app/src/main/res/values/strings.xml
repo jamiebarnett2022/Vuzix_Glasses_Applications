@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">detection</string>
-    <string name="visual_feedback_text_view_stop">STOP</string>
-    <string name="main_activity_text_view_detection_activated">Detection is activated</string>
-</resources>
